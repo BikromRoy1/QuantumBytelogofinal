@@ -2140,7 +2140,7 @@ p {
     background-size: cover;
   }
   .header-testting-wrap .header .logo-menu .logo-small img {
-    width: 40px;
+    width: 160px;
     height: 100%;
     -o-object-fit: contain;
     object-fit: contain;
