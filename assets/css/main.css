@@ -1803,7 +1803,7 @@ p {
 .header-testting-wrap .header-testting-inner {
   width: 100%;
   border-bottom: 1px solid rgb(22, 37, 87);
-  padding: 24px 5px;
+  padding: 20px 5px;
 }
 .header-testting-wrap .menu-border {
   border: 1px solid rgba(85, 84, 84, 0.5725490196);
@@ -14618,5 +14618,164 @@ p {
   border-color: #41e295;
 }
 
-/*--Button Area End--*/
-/*--Button Area End--*/ /*# sourceMappingURL=main.css.map */
+/* new css add */
+.service__chack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 0;
+  margin-bottom: 10px;
+}
+@media (max-width: 500px) {
+  .service__chack {
+    gap: 14px 5px;
+  }
+}
+.service__chack li {
+  width: 100%;
+}
+@media (max-width: 500px) {
+  .service__chack li {
+    width: 100%;
+  }
+}
+.service__chack li span {
+  color: var(--themetext);
+  font-size: 1rem;
+  font-weight: 400 !important;
+  font-family: var(--main-fontFamily);
+}
+.service__chack li .icon i {
+  line-height: 20px;
+  color: var(--achackcion);
+  font-size: 1rem;
+}
+.real__btn {
+  display: flex;
+  gap: 4px;
+  color: var(--text-base) !important;
+}
+.real__btn span {
+  color: var(--text-base);
+  font-size: 1rem;
+  font-weight: 600;
+}
+.real__btn .icon {
+  transition: all 0.3s;
+  margin-top: 4px;
+}
+.real__btn .icon i {
+  color: var(--text-base);
+  font-size: 18px;
+}
+
+/* Product card design css */
+.product-items .nav-tabs {
+  border-bottom: 0;
+  gap: 10px;
+}
+.product-items .nav-tabs .nav-link.active {
+  background-color: var(--base);
+  color: #fff;
+  border-radius: 55px;
+  border: 1px solid var(--base);
+}
+.product-items .nav-tabs .nav-link {
+  color: var(--white);
+  border: 1px solid var(--base);
+  border-radius: 55px;
+  font-weight: 600;
+  font-family: var(--main-fontFamily);
+  font-size: 1rem;
+  padding: 8px 24px;
+}
+.product-items .nav-tabs .nav-link:hover {
+  background-color: var(--text-base);
+  color: var(--white);
+  border: 1px solid var(--text-base);
+  border-radius: 55px;
+}
+
+/* About us */
+.about-one-left-container {
+  position: relative;
+}
+.about-one-image-bottom {
+  position: absolute;
+  bottom: -72px;
+  right: 20px;
+  z-index: 1;
+}
+.white-div {
+  width: 317px;
+  height: 224px;
+  border-radius: 4px;
+  background-color: var(--whitebgdark);
+  position: absolute;
+  bottom: -52px;
+  right: 40px;
+}
+.about-one-pattern {
+    position: absolute;
+    bottom: -43px;
+    left: 72px;
+}
+.about-one-counter {
+    width: 274px;
+    height: 129px;
+    border-radius: 4px;
+    background: #162557;
+    padding: 25px 30px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+.fun-fact-odometer {
+    display: flex;
+    align-items: center;
+}
+.fun-fact-odometer h3, .fun-fact-odometer span{
+    font-size: 38px;
+    font-weight: 700;
+    color: var(--white);
+    font-family: var(--main-fontFamily);
+}
+.about-one-counter .counter h6{
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--white);
+    font-family: var(--main-fontFamily);
+}
+.about-one-title h2{
+    text-transform: inherit;
+    font-size: 50px;
+}
+.about-one-right-container{
+    margin-left: 20px;
+}
+.about-one-title p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.about-one-list{
+    display: flex;
+    gap: 80px;
+}
+.about-one-list-container ul li{
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--color-four);
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.about-one-list-container ul li img{
+    margin-right: 8px;
+}
+.about-one-btn{
+    margin-top: 40px;
+}
+.about__section{
+  padding-bottom: 172px;
+}
